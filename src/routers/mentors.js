@@ -11,7 +11,7 @@ router.get('/', async (request, response) => {
 
         response.json({
             success: true,
-            message: 'All mentors',
+            message: 'Ejercicio mostrar mentores',
             data: {
                 mentors: allMentors
             }
